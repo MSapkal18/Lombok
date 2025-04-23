@@ -8,10 +8,6 @@ public class DemoStreamVideoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DemoStreamVideoApplication.class, args);
-		Student student=new Student(1001,"Ram");
-		System.out.println("hello");
-		Student student1=new Student(100,"Ram");
-		System.out.println(student1.getId());
 	}
 
 }

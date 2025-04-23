@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Centered Card</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .card h2 {
+            margin-bottom: 20px;
+        }
+
+        .card button {
+            padding: 10px 16px;
+            margin: 0 10px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .view-btn {
+            background-color: #007bff;
+            color: blue;
+        }
+
+        .upload-btn {
+            background-color: #28a745;
+            color: green;
+        }
+
+        .card button:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h2>Welcome</h2>
+    <a href="#"><button class="view-btn">View</button></a>
+    <a href="/uploadForm">upload</a>
+    <!--<a href="/uploadForm"><button class="upload-btn">Upload</button></a>-->
+</div>
+
+</body>
+</html>
